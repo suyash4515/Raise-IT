@@ -1,0 +1,83 @@
+.app{
+    display: flex;
+    justify-content: center;
+    /* align-items: 'center'; */
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100vh; */
+}
+
+.sidebar{
+    border: 1px solid white;
+    /* background-color: red; */
+    height: 100vh;
+    /* margin-left: 300px; */
+    margin-top: 0px;
+    width: 100%;
+    /* width: 12vw; */
+    position: sticky;
+    top:0;
+}
+
+.home{
+    border: 1px solid silver;
+    /* width: 100%; */
+    width: 50vw;
+}
+
+.more{
+    border: 1px solid silver;
+    /* width: 100%; */
+    width: 50vw;
+}
+
+.Issue{
+    border: 1px solid silver;
+    /* width: 100%; */
+    width: 50vw;
+}
+
+.signin{
+    width: 50vw;
+    /* background-color: red; */
+    border: 1px solid silver;
+    padding: 10px;
+    height: 50vh;
+    margin-top: 15vh;
+    
+}
+
+.signup{
+    width: 50vw;
+    /* background-color: red; */
+    border: 1px solid silver;
+    padding: 10px;
+    height: 50vh;
+    margin-top: 15vh;
+}
+
+.profile{
+    border: 1px solid silver;
+    width: 50vw;
+}
+
+.notify{
+    /* border: 1px solid white; */
+    /* background-color: red; */
+    height: 110%;
+    width: 17%;
+    /* margin-right: 70px; */
+    /* width: 12vw; */
+    /* width: auto; */
+    position: sticky;
+}
+
+.signin{
+    border: 1px solid silver;
+    width: 68vw;
+}
+.userprofile{
+    border: 1px solid silver;
+    width: 68vw;
+}
+

@@ -1,0 +1,169 @@
+/* 
+.issue{
+    background-color: #1DA1F2;
+    border: none !important;
+    color: white;
+    font-weight: 700 !important;
+    text-transform: inherit !important;
+    border-radius: 30px;
+    height: 50px;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+} */
+
+.issue{
+    padding: 5px;
+    gap: 5px;
+    background-color: #1DA1F2;
+    border: none !important;
+    color: white;
+    font-weight: 400 !important;
+    border-radius: 10px;
+    width: fit-content;
+    /* font-weight: 100; */
+    font-size: 20px;
+    /* margin: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.issue:focus{
+    background: #1DA1F2;
+}
+
+.srchline{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 9px;
+    background: lightgray;
+    color: black;
+}
+
+.modal{
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.sug{
+    border: none;
+    /* background-color: silver; */
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.sug:hover{
+    color: #1DA1F2;
+    font-weight: 700;
+    background: none;
+}
+
+
+
+.clear{
+    background: none;
+    border: none;
+    display: inline-flex;
+}
+
+.logout{
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    border: none !important;
+    color: black;
+    font-weight: 500 !important;
+    border-radius: 4px;
+    width: 100px;
+    width: fit-content;
+    font-size: 15px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.material-icons{
+    
+}
+
+.clear:visited { 
+    background: none; }
+
+.clear:focus { 
+    background: none; 
+}
+
+.clear:hover { 
+    background: none; 
+}
+
+.clear:active { 
+    background: none; 
+}
+
+.srch:visited { 
+    background: none; }
+
+.srch:focus { 
+    background: none; 
+}
+
+.srch:hover { 
+    background: none; 
+}
+
+.srch:active { 
+    background: none; 
+}
+
+.srch{
+    border: none !important;
+    color: black;
+    font-weight: 500 !important;
+    background: none;
+    /* width: auto; */
+    display: inline-block;
+    padding: 0px 10px;
+    outline: none;
+    /* max-width: 300px; */
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background: whitesmoke;
+}
+
+.link {
+    color: black;
+}
+
+.logo{
+    display: block;
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* align-content: censter; */
+    text-align: left;
+    
+}

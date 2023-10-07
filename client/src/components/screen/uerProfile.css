@@ -1,0 +1,44 @@
+.pro{
+    display : flex;
+    padding-left: 20px;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+
+.ph{
+    height: auto;
+    max-height: 40vw;
+    width: auto;
+    max-width: 90%;
+    text-align: center;
+    display: block;
+    /* border-radius: 25px; */
+    /* border: 1px solid silver; */
+}
+
+.userprofile{
+    padding-top: 20px;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid silver;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.item{
+    height: auto;
+    max-height: 50vw;
+    /* width: auto; */
+    /* max-width: 100%; */
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    border: 1px solid silver;
+}
+
+.self-posts{
+    display: flex;
+    margin-right: 2px;
+    gap: 5px;
+}
